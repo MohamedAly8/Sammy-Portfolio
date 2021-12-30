@@ -1,4 +1,5 @@
 import "./Intro.css"
+import Me from "../../img/img3.png"
 
 const Intro = () => {
     return (
@@ -16,9 +17,26 @@ const Intro = () => {
                             <div className="i-title-item">Black Belt Holder</div>
                         </div>
                     </div>
+                    <p className="i-description">
+                        I am a 1st Year Computer Science student at Ryerson University. Passionate about 
+                        Front End Development and UX Design. On my spare time you can find me drawing, fishing,
+                         or learning new skills.
+                    </p>
                 </div>
+                 {/* <svg 
+                 width="75"
+                 height="75"
+                 viewBox="0 0 75 75"
+                 fill="none"
+                 stroke="yellow"
+                 className="i-scroll"
+                 xmlns="http://www.w3.org/2000/svg"
+                 ></svg> */}
             </div>
-            <div className="i-right">right</div>
+            <div className="i-right">
+                <div className="i-bg"></div>
+                <img src={Me} alt="" className="i-img" />
+            </div>
         </div>
     )
 }
