@@ -17,7 +17,7 @@
 
 .i-left-wrapper{
     padding: 50px;
-    height: 50%;
+    height: 60%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -30,7 +30,8 @@
 }
 
 .i-name{
-    font-size: 60px;
+    font-size: 100px;
+    font-family: 'Moon Dance', cursive;
 }
 
 .i-title{
@@ -65,7 +66,7 @@
     height: 50px;
     font-size: 30px;
     font-weight: bold;
-    color: rgb(209, 100, 73);
+    color: rgba(116, 52, 63, 0.931);
     display: flex;
     align-items: center;
 }
@@ -89,7 +90,8 @@
 
 .i-bg{
     clip-path: polygon(0 0, 75% 0, 100% 100%, 25% 100%);    
-    background-color: rgb(209, 100, 73);
+    /* background-color: rgb(95, 139, 180); */
+    background-image: linear-gradient(to bottom right, rgba(116, 52, 63, 0.931), rgb(194, 120, 212));
     width: 100%;
     height: 100%;
     position: absolute;
@@ -100,3 +102,16 @@
 .i-description{
     font-size: 20px;
 }
+
+.i-icons{
+    width: 60%;
+    size: 3em;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+a:visited { 
+    text-decoration: none; 
+    color: rgb(14, 0, 0);
+   }
