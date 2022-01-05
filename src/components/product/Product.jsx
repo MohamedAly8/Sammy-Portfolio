@@ -1,5 +1,4 @@
 import "./product.css"
-import {FaExternalLinkAlt} from "react-icons/fa"
 function Product({img,link,name}) {
     return (
         <div className="p">
