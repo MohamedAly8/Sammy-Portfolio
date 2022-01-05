@@ -10,7 +10,7 @@ const Intro = () => {
             <div className="i-left">
                 <div className="i-left-wrapper">
                     <h2 className="i-intro">Hello, My name is</h2>
-                    <h1 className="i-name">Sameeha Ahmed </h1>
+                    <h1 className="i-name">Sameeha Ahmed</h1>
                     <div className="i-title">
                         <div className="i-title-wrapper">
                             <div className="i-title-item">Programmer</div>
@@ -24,6 +24,8 @@ const Intro = () => {
                         I am a 1st Year Computer Science student at Ryerson University. Passionate about 
                         Front End Development and UX Design. In my spare time you can find me drawing, fishing,
                          or learning new skills.
+
+                        
                     </p>
                     <div className="i-icons">
                         {/* Github */}
@@ -42,7 +44,7 @@ const Intro = () => {
                     <MdEmail size="3em"></MdEmail>
                     </div>
 
-                    <p className="i-footer">Made with ♥ using React <FaReact/></p>
+                    
                     
                 </div>
                  
