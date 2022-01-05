@@ -1,0 +1,50 @@
+.p {
+    width: 30%;
+    height: 40vh;
+    margin: 20px 10px;
+    border: 2px solid rgba(216, 216, 216, 0.582);
+    border-radius: 10px 10px 0px 0px;
+    overflow:hidden;
+ 
+}
+
+.p-browser{
+    width: 100%;
+    height: 45px;
+    background-color: #eaeaea;
+    display: flex;
+    align-items: center;
+
+}
+
+.p-circle {
+    width: 12px;
+    height: 12px;
+    margin: 3px;
+    border-radius: 50%;
+}
+
+#red {
+    background-color: #FC6058;
+}
+
+#yellow {
+    background-color: #FEC02F;
+}
+
+#green {
+    background-color: #2ACA3E;
+}
+
+.p-img {
+    width: 100%;
+
+    
+
+}
+
+.p-text {
+
+    float: right;
+}
+

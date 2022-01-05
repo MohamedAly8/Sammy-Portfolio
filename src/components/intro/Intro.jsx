@@ -1,5 +1,5 @@
 import "./Intro.css"
-import { FaGithub, FaLinkedin} from "react-icons/fa"
+import { FaGithub, FaLinkedin, FaReact} from "react-icons/fa"
 import {MdEmail} from "react-icons/md"
 import {RiNewspaperLine} from "react-icons/ri"
 import Me from "../../img/img3.png"
@@ -22,35 +22,30 @@ const Intro = () => {
                     </div>
                     <p className="i-description">
                         I am a 1st Year Computer Science student at Ryerson University. Passionate about 
-                        Front End Development and UX Design. On my spare time you can find me drawing, fishing,
+                        Front End Development and UX Design. In my spare time you can find me drawing, fishing,
                          or learning new skills.
                     </p>
                     <div className="i-icons">
-                        <a href="https://github.com" target="_blank">
+                        {/* Github */}
+                        <a href="https://github.com" target="_blank" rel="noreferrer">
                     <FaGithub size="3em"/>
                         </a>
-                    
+                    {/* Resume */}
                         <a href="">
                         <RiNewspaperLine size="3em"/>
                         </a>
-                    
-                        <a href="https://linkedin.com" target="_blank">
+                    {/* LinkedIn */}
+                        <a href="https://www.linkedin.com/in/sameeha-ahmed-93b38621a/" target="_blank" rel="noreferrer">
                     <FaLinkedin size="3em"></FaLinkedin>
                     </a>
-                    
+                    {/* Email */}
                     <MdEmail size="3em"></MdEmail>
-
                     </div>
+
+                    <p className="i-footer">Made with ♥ using React <FaReact/></p>
+                    
                 </div>
-                 {/* <svg 
-                 width="75"
-                 height="75"
-                 viewBox="0 0 75 75"
-                 fill="none"
-                 stroke="yellow"
-                 className="i-scroll"
-                 xmlns="http://www.w3.org/2000/svg"
-                 ></svg> */}
+                 
             </div>
             <div className="i-right">
                 <div className="i-bg"></div>
