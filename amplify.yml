@@ -18,10 +18,10 @@ frontend:
         - node -v
         - npm run-script build
         
-  # artifacts:
-  #   baseDirectory: dist/cr-client
-  #   files:
-  #     - '**/*'
+  artifacts:
+    baseDirectory: build
+    files:
+      - '**/*'
   cache:
     paths:
       - node_modules/**/*
