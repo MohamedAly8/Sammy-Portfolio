@@ -111,9 +111,14 @@
     justify-content: space-between;
 }
 
+a {
+    color:rgb(14, 0, 0);
+    text-decoration: none !important;
+}
+
 a:visited { 
-    text-decoration: none; 
-    color: rgb(14, 0, 0);
+    text-decoration: none !important; 
+    color: inherit;
    }
 
 
