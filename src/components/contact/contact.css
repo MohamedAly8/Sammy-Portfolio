@@ -34,9 +34,7 @@ form {
     margin-bottom: 15px;
     width:33.333%;
     box-sizing: border-box;
-    outline:0;
- 
-    border-bottom: 1px solid black;
+    outline:0; 
 }
 
 
@@ -112,6 +110,7 @@ textarea {
   transition: all 0.3s;
   margin-top:-4px;
   font-weight:700;
+
 }
 .submit:hover {
      background:rgba(82, 37, 44, 0.931);
