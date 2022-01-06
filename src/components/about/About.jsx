@@ -4,6 +4,9 @@ import logo from "../../img/logo.jpg"
 
 const About = () => {
     return (
+
+        <div>
+
         <div className="a">
             <div className="a-left">
                 <div className="a-card bg"></div>
@@ -35,6 +38,9 @@ const About = () => {
                     </div>
                 </div>
             </div>
+            
+        </div>
+        <hr />
         </div>
     )
 }

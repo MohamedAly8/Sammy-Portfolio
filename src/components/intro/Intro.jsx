@@ -40,8 +40,10 @@ const Intro = () => {
                         <a href="https://www.linkedin.com/in/sameeha-ahmed-93b38621a/" target="_blank" rel="noreferrer">
                     <FaLinkedin size="3em"></FaLinkedin>
                     </a>
+                    <a href="mailto:support@example.com?subject=Hi Sameeha, let's connect&body=What would you like to discuss">
                     {/* Email */}
                     <MdEmail size="3em"></MdEmail>
+                    </a>
                     </div>
 
                     

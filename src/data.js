@@ -1,21 +1,21 @@
 export const products = [
     {
       id: 1,
-      img: "https://images.unsplash.com/photo-1602974605125-2b4afee39ab5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1039&q=80",
+      img: "https://thumbs.dreamstime.com/b/male-head-sudoku-pencil-illustration-stylized-torn-paper-silhouette-vector-available-180434872.jpg",
       link: "https://github.com",
       name: "Sudoku Solver w/ Backtracking ",
     },
     {
       id: 2,
-      img: "",
+      img: "https://camo.githubusercontent.com/9d4dfdf7213b8f5d3597461f781c2c1f9d06f4331e6b7ed18bf433351056ebf3/68747470733a2f2f692e696d6775722e636f6d2f397139384463582e706e67",
       link: "https://github.com",
-      name: "",
+      name: "Calculator w/ Java",
     },
     {
       id: 3,
-      img: "",
+      img: "https://ak.picdn.net/shutterstock/videos/1013216570/thumb/1.jpg",
       link: "https://github.com",
-      name: "",
+      name: "Tic Tac Toe w/ Pyhon",
     },
     // {
     //   id: 4,

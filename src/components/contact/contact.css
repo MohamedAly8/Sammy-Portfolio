@@ -1,3 +1,172 @@
-.c {
-    height: 100vh;
+body { 
+    background-color: aliceblue;
+ }
+.c-title {
+    margin-top: 30px;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
 }
+
+hr {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+form {
+    max-width:80%; 
+    margin:50px auto; 
+}
+
+.name {
+    color:black;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight:500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: transparent;
+    border:2px solid rgba(116, 52, 63, 0.931);
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width:33.333%;
+    box-sizing: border-box;
+    outline:0;
+}
+
+.email {
+    color:black;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight:500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: transparent;
+    border:2px solid rgba(116, 52, 63, 0.931);
+    transition: ll 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width:33.333%;
+    box-sizing: border-box;
+    outline:0;
+}
+
+.user_subject {
+    color:black;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight:500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: transparent;
+    border:2px solid rgba(116, 52, 63, 0.931);
+    transition: ll 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width:33.333%;
+    box-sizing: border-box;
+    outline:0;
+}
+
+.message {
+  color:black;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid rgba(116, 52, 63, 0.931);
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+input:focus, textarea:focus {     
+     background-color: rgba(0, 0, 0, 0.075);
+}
+
+textarea {
+  line-height: 150%;
+  resize:vertical;
+}
+
+.submit {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:rgba(116, 52, 63, 0.931);
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+.submit:hover {
+     background:rgba(82, 37, 44, 0.931);
+     }
+
+
+     @media screen and (max-width: 480px) {
+
+
+        .email, .name, .user_subject {
+            width: 100%;
+        }
+     }
+
+
+
+ /* .container {
+    height: 100vh;
+    background-color: aliceblue;
+    position: relative;
+}
+
+.c-title {
+    font-size: 60px;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+.c-bg{
+    clip-path: polygon(0% 0%, 100% 0%, 100% 88%, 75% 88%, 75% 100%, 51% 88%, 0 88%);    
+    background-image: linear-gradient(to bottom right, rgba(214, 214, 214, 0.157), rgba(194, 120, 212, 0.301));
+    width: 100%;
+    height: 100%;
+    position: absolute;
+
+}
+
+hr {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form {
+    margin-top: 20px;
+    text-align: center;
+}
+
+input {
+    width: 75%;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid;
+    text-align: center;
+    margin-bottom: 10px;
+    
+}   */
