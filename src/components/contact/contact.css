@@ -28,15 +28,17 @@ form {
     font-size: 18px;
     border-radius: 5px;
     line-height: 22px;
-    background-color: transparent;
-    border:2px solid rgba(116, 52, 63, 0.931);
+    background-color: rgba(116, 52, 63, 0.082);
     transition: all 0.3s;
     padding: 13px;
     margin-bottom: 15px;
     width:33.333%;
     box-sizing: border-box;
     outline:0;
+ 
+    border-bottom: 1px solid black;
 }
+
 
 .email {
     color:black;
@@ -45,8 +47,7 @@ form {
     font-size: 18px;
     border-radius: 5px;
     line-height: 22px;
-    background-color: transparent;
-    border:2px solid rgba(116, 52, 63, 0.931);
+    background-color: rgba(116, 52, 63, 0.082);
     transition: ll 0.3s;
     padding: 13px;
     margin-bottom: 15px;
@@ -62,8 +63,7 @@ form {
     font-size: 18px;
     border-radius: 5px;
     line-height: 22px;
-    background-color: transparent;
-    border:2px solid rgba(116, 52, 63, 0.931);
+    background-color: rgba(116, 52, 63, 0.082);
     transition: ll 0.3s;
     padding: 13px;
     margin-bottom: 15px;
@@ -80,7 +80,7 @@ form {
   border-radius: 5px;
   line-height: 22px;
   background-color: transparent;
-  border:2px solid rgba(116, 52, 63, 0.931);
+  background-color: rgba(116, 52, 63, 0.082);
   transition: all 0.3s;
   padding: 13px;
   margin-bottom: 15px;
@@ -90,7 +90,7 @@ form {
 }
 
 input:focus, textarea:focus {     
-     background-color: rgba(0, 0, 0, 0.075);
+     background-color: rgba(0, 0, 0, 0.246);
 }
 
 textarea {
