@@ -1,5 +1,4 @@
 import "./product.css"
-import { FaGithub} from "react-icons/fa"
 
 function Product({img,link,name}) {
     return (
