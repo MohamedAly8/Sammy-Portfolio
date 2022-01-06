@@ -10,16 +10,18 @@ frontend:
     preBuild:
       commands:
         - nvm use $VERSION_NODE_16
-        - npm ci
+        # - npm ci
+        - npm ci --production
     build:
       commands:
         - nvm use $VERSION_NODE_16
         - node -v
         - npm run-script build
-  artifacts:
-    baseDirectory: dist/cr-client
-    files:
-      - '**/*'
+        
+  # artifacts:
+  #   baseDirectory: dist/cr-client
+  #   files:
+  #     - '**/*'
   cache:
     paths:
       - node_modules/**/*
