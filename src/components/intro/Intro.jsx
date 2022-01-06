@@ -1,5 +1,5 @@
 import "./Intro.css"
-import { FaGithub, FaLinkedin, FaReact} from "react-icons/fa"
+import { FaGithub, FaLinkedin} from "react-icons/fa"
 import {MdEmail} from "react-icons/md"
 import {RiNewspaperLine} from "react-icons/ri"
 import Me from "../../img/img3.png"
@@ -16,8 +16,8 @@ const Intro = () => {
                             <div className="i-title-item">Programmer</div>
                             <div className="i-title-item">Digital Artist</div>
                             <div className="i-title-item">Calligrapher</div>
-                            <div className="i-title-item">Aspring Learner</div>
-                            <div className="i-title-item">Black Belt Holder</div>
+                            <div className="i-title-item">Learner</div>
+                            <div className="i-title-item">Black Belt</div>
                         </div>
                     </div>
                     <p className="i-description">

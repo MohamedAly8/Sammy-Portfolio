@@ -17,22 +17,22 @@ export const products = [
       link: "https://github.com",
       name: "",
     },
-    {
-      id: 4,
-      img: "",
-      link: "https://github.com",
-      name: "",
-    },
-    {
-      id: 5,
-      img: "",
-      link: "https://github.com",
-      name: "",
-    },
-    {
-      id: 6,
-      img: "",
-      link: "https://github.com",
-      name: "",
-    },
+    // {
+    //   id: 4,
+    //   img: "",
+    //   link: "https://github.com",
+    //   name: "",
+    // },
+    // {
+    //   id: 5,
+    //   img: "",
+    //   link: "https://github.com",
+    //   name: "",
+    // },
+    // {
+    //   id: 6,
+    //   img: "",
+    //   link: "https://github.com",
+    //   name: "",
+    // },
   ];

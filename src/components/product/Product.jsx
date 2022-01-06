@@ -1,4 +1,6 @@
 import "./product.css"
+import { FaGithub} from "react-icons/fa"
+
 function Product({img,link,name}) {
     return (
         <div className="p">
@@ -17,6 +19,15 @@ function Product({img,link,name}) {
             <a href={link} target="_blank" rel="noreferrer">
                 <img src={img} alt="" className="p-img" />
             </a>
+
+        {/* This was to add stuff behind the image if you 
+        want to animate the image to move on hover */}
+            {/* <div className="p-icon">
+                <a href="https://github.com" target="_blank" rel="noreferrer">
+                    <FaGithub size="2em"/>
+                </a>
+            </div> */}
+            
 
         </div>
     )

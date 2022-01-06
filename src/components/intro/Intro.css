@@ -117,3 +117,32 @@ a:visited {
    }
 
 
+   @media screen and (max-width: 480px) {
+    .i {
+      flex-direction: column;
+      height: 80vh;
+    }
+  
+    .i-left-wrapper {
+    
+      padding:0px;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      height: 100%;
+   
+    }
+
+ 
+    .i-description{
+      display: none;
+    }
+
+    .i-name {
+        font-size: 70px;
+    }
+
+    .i-icons {
+        padding: 30px;
+    }
+  }
