@@ -17,12 +17,13 @@ export const products = [
       link: "https://github.com",
       name: "Tic Tac Toe w/ Python",
     },
-    // {
-    //   id: 4,
-    //   img: "",
-    //   link: "https://github.com",
-    //   name: "",
-    // },
+    {
+      id: 4,
+      img: "https://cdn.xxl.thumbs.canstockphoto.com/hexadecimal-code-running-up-a-computer-screen-on-white-background-black-digits-clipart_csp30160214.jpg",
+      link: "https://github.com",
+      name: "Hexadecimal Converter",
+    },
+
     // {
     //   id: 5,
     //   img: "",

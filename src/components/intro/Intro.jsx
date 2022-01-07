@@ -3,8 +3,9 @@ import { FaGithub, FaLinkedin} from "react-icons/fa"
 import {MdEmail} from "react-icons/md"
 import {RiNewspaperLine} from "react-icons/ri"
 import Me from "../../img/img3.png"
+import Resume from "../../img/Resume-Sameeha.pdf"
 
-const Intro = () => {
+function Intro () {
     return (
         <div className="i">
             <div className="i-left">
@@ -16,8 +17,9 @@ const Intro = () => {
                             <div className="i-title-item">Programmer</div>
                             <div className="i-title-item">Digital Artist</div>
                             <div className="i-title-item">Calligrapher</div>
-                            <div className="i-title-item">Learner</div>
+                            <div className="i-title-item">Active Learner</div>
                             <div className="i-title-item">Black Belt</div>
+
                         </div>
                     </div>
                     <p className="i-description">
@@ -29,20 +31,20 @@ const Intro = () => {
                     </p>
                     <div className="i-icons">
                         {/* Github */}
-                        <a href="https://github.com" target="_blank" rel="noreferrer">
-                    <FaGithub size="3em"/>
+                        <a href="https://github.com/sameehaa" target="_blank" rel="noreferrer">
+                    <FaGithub size="3.5em"/>
                         </a>
                     {/* Resume */}
-                        <a href="">
-                        <RiNewspaperLine size="3em"/>
+                        <a onClick={() => window.open(Resume)}>
+                        <RiNewspaperLine size="3.5em"/>
                         </a>
                     {/* LinkedIn */}
                         <a href="https://www.linkedin.com/in/sameeha-ahmed-93b38621a/" target="_blank" rel="noreferrer">
-                    <FaLinkedin size="3em"></FaLinkedin>
+                    <FaLinkedin size="3.5em"></FaLinkedin>
                     </a>
-                    <a href="mailto:support@example.com?subject=Hi Sameeha, let's connect&body=What would you like to discuss">
+                    <a href="mailto:hafsa.sameeha@gmail.com?subject=Hi Sameeha, let's connect&body=What would you like to discuss">
                     {/* Email */}
-                    <MdEmail size="3em"></MdEmail>
+                    <MdEmail size="3.5em"></MdEmail>
                     </a>
                     </div>
 

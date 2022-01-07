@@ -23,7 +23,8 @@ const About = () => {
                 <p className="a-desc">
                     Currently on a journey of learning HTML/CSS with a focus on Front End and UI/UX Design.
                     I am looking forward to applying my skillset into meaningful and impactful projects in a work environemnt.
-                    I excel in a fast-paced work environment and am always looking forward to learning new technologies.
+                    I excel in a fast-paced work environment and am always looking forward to learning new technologies. 
+                    I am proficient in python, java, html, css and I am looking to apply my skills in a meaningful internship
 
                 </p>
                 <div className="a-award">
