@@ -85,7 +85,7 @@ hr {
       flex-direction: column;
       text-align: center;
       margin-top: 50px;
-      height: 70vh;
+      height: 75vh;
       margin-bottom: 40px;
       
     }
@@ -104,5 +104,6 @@ hr {
 
     .a-right{
       padding: 20px;
+      margin-right: 0;
     }
 }
