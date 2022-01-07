@@ -30,7 +30,7 @@ export const products = [
     //   name: "",
     // },
     // {
-    //   id: 6,
+    //   id: 7,
     //   img: "",
     //   link: "https://github.com",
     //   name: "",
