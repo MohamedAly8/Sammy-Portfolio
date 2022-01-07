@@ -5,7 +5,10 @@ import {RiNewspaperLine} from "react-icons/ri"
 import Me from "../../img/img3.png"
 import Resume from "../../img/Resume-Sameeha.pdf"
 
+
+
 function Intro () {
+
     return (
         <div className="i">
             <div className="i-left">
@@ -35,7 +38,7 @@ function Intro () {
                     <FaGithub size="3.5em"/>
                         </a>
                     {/* Resume */}
-                        <a href={Resume} target="_blank" rel='noopener noreferrer'>
+                        <a href={Resume} without rel="noopener noreferrer" target="_blank">
                         <RiNewspaperLine size="3.5em"/>
                         </a>
                     {/* LinkedIn */}
