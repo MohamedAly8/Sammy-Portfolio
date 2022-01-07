@@ -35,7 +35,7 @@ function Intro () {
                     <FaGithub size="3.5em"/>
                         </a>
                     {/* Resume */}
-                        <a onClick={() => window.open(Resume)}>
+                        <a href={Resume} target="_blank" rel='noopener noreferrer'>
                         <RiNewspaperLine size="3.5em"/>
                         </a>
                     {/* LinkedIn */}
