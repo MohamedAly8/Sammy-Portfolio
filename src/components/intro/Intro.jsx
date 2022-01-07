@@ -38,8 +38,8 @@ function Intro () {
                     <FaGithub size="3.5em"/>
                         </a>
                     {/* Resume */}
-                        <a href={Resume} without rel="noopener noreferrer" target="_blank">
-                            
+                        <a href="https://www.docdroid.net/Gt4hZm2/resume-sameeha1e1cba38-pdf"  rel="noreferrer" target="_blank">
+
                         <RiNewspaperLine size="3.5em"/>
                         </a>
                     {/* LinkedIn */}
