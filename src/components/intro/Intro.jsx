@@ -39,6 +39,7 @@ function Intro () {
                         </a>
                     {/* Resume */}
                         <a href={Resume} without rel="noopener noreferrer" target="_blank">
+                            
                         <RiNewspaperLine size="3.5em"/>
                         </a>
                     {/* LinkedIn */}
