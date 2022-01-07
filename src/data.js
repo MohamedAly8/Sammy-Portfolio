@@ -15,7 +15,7 @@ export const products = [
       id: 3,
       img: "https://ak.picdn.net/shutterstock/videos/1013216570/thumb/1.jpg",
       link: "https://github.com",
-      name: "Tic Tac Toe w/ Pyhon",
+      name: "Tic Tac Toe w/ Python",
     },
     // {
     //   id: 4,
